@@ -8,6 +8,7 @@ This project explores whether historical Bitcoin market data can be used to pred
 
 Rather than focusing solely on prediction accuracy, this project emphasizes the complete data science workflow—from data validation and exploratory analysis to feature engineering, model evaluation, and deployment through an interactive dashboard.
 
+---
 
 ## Problem Statement
 
@@ -26,10 +27,12 @@ The project compares multiple regression algorithms to determine which modeling 
 - Compare classical machine learning and deep learning approaches
 - Build an interactive dashboard for exploring data and model predictions
 
+---
 
 ## Dataset
 
-**Source:** BITCOIN Historical Datasets 2018-2026 Binance API (Kaggle: https://www.kaggle.com/datasets/novandraanugrah/bitcoin-historical-datasets-2018-2024/data)
+**Source:** BITCOIN Historical Datasets 2018-2026 Binance API 
+Kaggle: https://www.kaggle.com/datasets/novandraanugrah/bitcoin-historical-datasets-2018-2024/data
 
 The dataset contains historical OHLCV (Open, High, Low, Close, Volume) information sampled at regular intervals (15m, 1h, 4h, 1d).
 
@@ -82,35 +85,7 @@ bitcoin-price-prediction/
 └── README.md
 ```
 
-
-## Project Workflow
-
-```text
-Historical Market Data
-            │
-            ▼
-     Data Validation
-            │
-            ▼
- Exploratory Data Analysis
-            │
-            ▼
-   Feature Engineering
-            │
-            ▼
-     Model Development
-    ├───────────────┐
-    ▼               ▼
-Classic ML     LSTM Network
-    └───────────────┘
-            │
-            ▼
-    Model Evaluation
-            │
-            ▼
-  Interactive Dashboard
-```
-
+---
 
 ## Machine Learning Models
 
@@ -137,6 +112,7 @@ Each model will be evaluated using:
 
 Performance will be compared both quantitatively and visually.
 
+---
 
 ## Exploratory Data Analysis
 
@@ -191,6 +167,7 @@ A Streamlit dashboard will allow users to:
 - Streamlit
 - Matplotlib
 
+---
 
 ## Results
 
@@ -245,7 +222,7 @@ streamlit run dashboard/app.py
 
 ## Author
 
-**Kenneth Prado**
+**Kenneth C. Prado**
 
 GitHub: *Coming Soon*  
 LinkedIn: *Coming Soon*
