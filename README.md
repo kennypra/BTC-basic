@@ -32,9 +32,11 @@ The project compares multiple regression algorithms to determine which modeling 
 ## Dataset
 
 **Source:** BITCOIN Historical Datasets 2018-2026 Binance API 
+
 Kaggle: https://www.kaggle.com/datasets/novandraanugrah/bitcoin-historical-datasets-2018-2024/data
 
 The dataset contains historical OHLCV (Open, High, Low, Close, Volume) information sampled at regular intervals (15m, 1h, 4h, 1d).
+
 
 ### Features
 
@@ -52,6 +54,7 @@ The dataset contains historical OHLCV (Open, High, Low, Close, Volume) informati
 | Taker Buy Base Asset Volume | Bitcoin purchased by takers |
 | Taker Buy Quote Asset Volume | USDT value of taker purchases |
 
+---
 
 ## Project Structure
 
@@ -85,7 +88,6 @@ bitcoin-price-prediction/
 └── README.md
 ```
 
----
 
 ## Machine Learning Models
 
@@ -112,7 +114,6 @@ Each model will be evaluated using:
 
 Performance will be compared both quantitatively and visually.
 
----
 
 ## Exploratory Data Analysis
 
@@ -181,6 +182,7 @@ A Streamlit dashboard will allow users to:
 | SVR | - | - | - | - |
 | LSTM | - | - | - | - |
 
+---
 
 ## Future Improvements
 
@@ -223,9 +225,9 @@ streamlit run dashboard/app.py
 ## Author
 
 **Kenneth C. Prado**
+M.S. Data Sience Candidate at Vanderbilt
 
-GitHub: *Coming Soon*  
-LinkedIn: *Coming Soon*
+LinkedIn: https://www.linkedin.com/in/kenneth-c-prado/
 
 ---
 
