@@ -1,10 +1,6 @@
 # Bitcoin Price Prediction Using Machine Learning
 
-*A comparative analysis of classical machine learning and deep learning models for forecasting Bitcoin prices.*
-
----
-
-## Project Overview
+## Project Motivation and Overview
 
 Bitcoin is one of the world's most volatile financial assets, making accurate price forecasting a challenging machine learning problem.
 
@@ -12,7 +8,6 @@ This project explores whether historical Bitcoin market data can be used to pred
 
 Rather than focusing solely on prediction accuracy, this project emphasizes the complete data science workflow—from data validation and exploratory analysis to feature engineering, model evaluation, and deployment through an interactive dashboard.
 
----
 
 ## Problem Statement
 
@@ -20,25 +15,23 @@ Develop a machine learning model capable of predicting Bitcoin's next closing pr
 
 The project compares multiple regression algorithms to determine which modeling approach performs best for cryptocurrency time-series forecasting.
 
----
 
 ## Objectives
 
 - Analyze historical Bitcoin market data
 - Validate and preprocess the dataset
-- Perform exploratory data analysis (EDA)
+- Perform exploratory data analysis
 - Engineer meaningful time-series features
 - Train and evaluate multiple machine learning models
 - Compare classical machine learning and deep learning approaches
 - Build an interactive dashboard for exploring data and model predictions
 
----
 
 ## Dataset
 
-**Source:** Binance Historical Market Data
+**Source:** BITCOIN Historical Datasets 2018-2026 Binance API (Kaggle: https://www.kaggle.com/datasets/novandraanugrah/bitcoin-historical-datasets-2018-2024/data)
 
-The dataset contains historical OHLCV (Open, High, Low, Close, Volume) information sampled at regular intervals.
+The dataset contains historical OHLCV (Open, High, Low, Close, Volume) information sampled at regular intervals (15m, 1h, 4h, 1d).
 
 ### Features
 
@@ -56,7 +49,6 @@ The dataset contains historical OHLCV (Open, High, Low, Close, Volume) informati
 | Taker Buy Base Asset Volume | Bitcoin purchased by takers |
 | Taker Buy Quote Asset Volume | USDT value of taker purchases |
 
----
 
 ## Project Structure
 
@@ -90,7 +82,6 @@ bitcoin-price-prediction/
 └── README.md
 ```
 
----
 
 ## Project Workflow
 
@@ -98,7 +89,7 @@ bitcoin-price-prediction/
 Historical Market Data
             │
             ▼
-    Data Validation
+     Data Validation
             │
             ▼
  Exploratory Data Analysis
@@ -107,20 +98,19 @@ Historical Market Data
    Feature Engineering
             │
             ▼
- Model Development
-      ├───────────────┐
-      ▼               ▼
- Classical ML      LSTM Network
-      └───────────────┘
+     Model Development
+    ├───────────────┐
+    ▼               ▼
+Classic ML     LSTM Network
+    └───────────────┘
             │
             ▼
-   Model Evaluation
+    Model Evaluation
             │
             ▼
- Interactive Dashboard
+  Interactive Dashboard
 ```
 
----
 
 ## Machine Learning Models
 
@@ -135,7 +125,6 @@ Historical Market Data
 
 - Long Short-Term Memory (LSTM)
 
----
 
 ## Evaluation Metrics
 
@@ -148,7 +137,6 @@ Each model will be evaluated using:
 
 Performance will be compared both quantitatively and visually.
 
----
 
 ## Exploratory Data Analysis
 
@@ -161,7 +149,6 @@ The project investigates questions such as:
 - Are there seasonal or cyclical market patterns?
 - Which features appear most predictive?
 
----
 
 ## Feature Engineering
 
@@ -179,7 +166,6 @@ Additional features will be created from the raw market data, including:
 - Average Trade Size
 - Buy/Sell Pressure Ratios
 
----
 
 ## Dashboard
 
@@ -192,7 +178,6 @@ A Streamlit dashboard will allow users to:
 - View prediction results
 - Analyze feature importance
 
----
 
 ## Technologies
 
@@ -206,7 +191,6 @@ A Streamlit dashboard will allow users to:
 - Streamlit
 - Matplotlib
 
----
 
 ## Results
 
@@ -220,7 +204,6 @@ A Streamlit dashboard will allow users to:
 | SVR | - | - | - | - |
 | LSTM | - | - | - | - |
 
----
 
 ## Future Improvements
 
@@ -260,22 +243,9 @@ streamlit run dashboard/app.py
 
 ---
 
-## Project Status
-
-- [ ] Data validation
-- [ ] Exploratory data analysis
-- [ ] Feature engineering
-- [ ] Classical machine learning models
-- [ ] LSTM implementation
-- [ ] Model comparison
-- [ ] Interactive dashboard
-- [ ] Documentation
-
----
-
 ## Author
 
-**Kenneth**
+**Kenneth Prado**
 
 GitHub: *Coming Soon*  
 LinkedIn: *Coming Soon*
@@ -284,6 +254,6 @@ LinkedIn: *Coming Soon*
 
 ## License
 
-This project is intended for educational and research purposes only.
+This project is intended for educational purposes only.
 
-The models developed in this repository should **not** be interpreted as financial advice or relied upon for investment decisions. Cryptocurrency markets are highly volatile, and model predictions are inherently uncertain.
+The models developed in this repo should **not** be interpreted as financial advice or relied upon for investment decisions. 
